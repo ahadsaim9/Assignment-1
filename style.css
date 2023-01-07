@@ -7,6 +7,11 @@ body {
   margin: 0;
   padding: 0;
 }
+main,
+section,
+div {
+  box-sizing: border-box;
+}
 
 .main-header {
   content: "";
@@ -138,34 +143,103 @@ body {
 .img-div p {
   color: rgb(70, 94, 94);
 }
-.hand-img-section{
+.hand-img-section {
   background-image: url(/images/watch.png);
-  height:300px;
-width: 68%;
-margin: 50px auto;
-background: linear-gradient(rgb(221, 146, 0));
-border-radius: 5px;
-
-
+  height: 300px;
+  width: 68%;
+  margin: 50px auto;
+  background: linear-gradient(rgb(221, 146, 0));
+  border-radius: 5px;
+  box-sizing: border-box;
 }
-.hand-img-section h1{
+.hand-img-section h1 {
   font-size: 40px;
-  margin-top:40px;
-  margin-left:40px;
-color: white;
-font-style: italic;
-
+  margin-top: 40px;
+  margin-left: 40px;
+  color: white;
+  font-style: italic;
 }
-.hand-img-section button{
-  margin-top:20px;
-  margin-left:40px;
+.hand-img-section button {
+  margin-top: 20px;
+  margin-left: 40px;
   padding: 10px 15px;
   font-size: 20px;
   font-style: italic;
-  background-color:white;
+  background-color: white;
   color: rgb(201, 73, 17);
   border: none;
   border-radius: 5px;
   transition: 0.5s;
+}
+.hand-img-section button:hover{
+  background-color: green;
+  color: white;
+}
+.future-section {
+  height: 577px;
+  background-color: black;
+  margin-top: 80px;
+  padding: 130px 230px;
+  display: flex;
+}
 
+.future-box {
+  color: white;
+  height: 317px;
+  width: 485px;
+}
+.future-box h1 {
+  font-size: 45px;
+}
+.future-box p {
+  margin-top: 16px;
+}
+.future-box-2 {
+  height: 204px;
+  width: 325px;
+  margin-left: 321px;
+  color: white;
+}
+.future-box-2 h1 {
+  font-size: 25px;
+}
+.future-box-2 input {
+  height: 25px;
+  width: 250px;
+  padding: 5px 10px;
+  border: 1px solid rgb(94, 83, 83);
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: white;
+  font-size: 16px;
+}
+.subscribe-btn {
+  padding: 10px 15px;
+  font-size: 20px;
+  font-style: italic;
+  background-color:white;
+  color:red;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.subscribe-btn:hover {
+  background-color: rgba(74, 228, 22, 0.832);
+  color: white;
+  cursor: pointer;
+}
+.logo-icon { display: flex;
+  margin-top: 32px;
+  height: 150px;
+  width: 200px;
+}
+.logo-icon img {
+  margin-left: 20px;
+  height: 46px;
+  width: 46px;
+}
+.logo-icon img:nth-child(1){
+  margin-left: 0;
 }

@@ -144,7 +144,7 @@ div {
   color: rgb(70, 94, 94);
 }
 .hand-img-section {
-  background-image: url(/images/watch.png);
+  background-image: url( "./images/watch.png");
   height: 300px;
   width: 68%;
   margin: 50px auto;

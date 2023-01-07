@@ -69,7 +69,7 @@ div {
   background-size: cover;
   width: 462px;
   height: 600px;
-  background-image: url(/images/person.png);
+  background-image: url("./images/person.png");
 }
 .content {
   height: 416px;
